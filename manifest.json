@@ -7,5 +7,11 @@
   "host_permissions": ["https://*.giphy.com/*"],
   "background": {
     "service_worker": "./background.js"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.ezgif.com/gif-to-mp4/*"],
+      "js": ["./auto-download.js"]
+    }
+  ]
 }

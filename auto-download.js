@@ -1,13 +1,3 @@
-// ==UserScript==
-// @name         GIF to MP4
-// @namespace    http://tampermonkey.net/
-// @version      2024-06-17
-// @description  try to take over the world!
-// @author       You
-// @match        https://*.ezgif.com/gif-to-mp4/*
-// @grant        none
-// ==/UserScript==
-
 (function () {
   "use strict";
   const btn = document.querySelector("#tsbt > input");
