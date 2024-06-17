@@ -5,7 +5,6 @@ chrome.contextMenus.create({
 });
 
 chrome.contextMenus.onClicked.addListener(function (info, tab) {
-  console.log(info);
   if (info.menuItemId == "gif-to-mp4") {
     var gif_url = info.srcUrl.replace(".webp", ".gif");
     chrome.tabs.create({
