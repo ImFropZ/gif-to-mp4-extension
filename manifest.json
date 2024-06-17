@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "GIF to MP4",
+  "version": "1.0.0",
+  "description": "GIF to MP4",
+  "permissions": ["contextMenus", "tabs"],
+  "host_permissions": ["https://*.giphy.com/*"],
+  "background": {
+    "service_worker": "./background.js"
+  }
+}
